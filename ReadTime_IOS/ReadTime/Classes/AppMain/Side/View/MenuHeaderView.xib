@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="12120" systemVersion="16A323" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_0" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12088"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="145"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <imageView userInteractionEnabled="NO" tag="1" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="default_head" translatesAutoresizingMaskIntoConstraints="NO" id="XsC-P3-mhO">
+                    <rect key="frame" x="15" y="55" width="65" height="65"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="65" id="0RD-Ty-G3d"/>
+                        <constraint firstAttribute="height" constant="65" id="Ph8-sZ-f8h"/>
+                    </constraints>
+                </imageView>
+                <label opaque="NO" userInteractionEnabled="NO" tag="2" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="请登录" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="VnU-bX-Z0r" userLabel="请登录">
+                    <rect key="frame" x="90" y="77" width="56" height="21.5"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="18"/>
+                    <color key="textColor" red="1" green="0.36781225290000003" blue="0.40015607199999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label hidden="YES" opaque="NO" userInteractionEnabled="NO" tag="3" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="A哟小伙z" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="3y1-sA-ViZ" userLabel="名称">
+                    <rect key="frame" x="90" y="69" width="76" height="21.5"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="18"/>
+                    <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label hidden="YES" opaque="NO" userInteractionEnabled="NO" tag="4" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="努力努力再努力" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="V5a-Pr-rxQ" userLabel="签名">
+                    <rect key="frame" x="90" y="84.5" width="180" height="14"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                    <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    <nil key="highlightedColor"/>
+                </label>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="V5a-Pr-rxQ" firstAttribute="leading" secondItem="3y1-sA-ViZ" secondAttribute="leading" id="Kz0-kp-CXG"/>
+                <constraint firstItem="3y1-sA-ViZ" firstAttribute="centerY" secondItem="XsC-P3-mhO" secondAttribute="centerY" constant="-8" id="dT7-QO-h5R"/>
+                <constraint firstItem="XsC-P3-mhO" firstAttribute="centerY" secondItem="iN0-l3-epB" secondAttribute="centerY" constant="15" id="fyP-Kq-3xK"/>
+                <constraint firstItem="V5a-Pr-rxQ" firstAttribute="centerY" secondItem="XsC-P3-mhO" secondAttribute="centerY" constant="8" id="huy-Ss-dsx"/>
+                <constraint firstItem="VnU-bX-Z0r" firstAttribute="leading" secondItem="3y1-sA-ViZ" secondAttribute="leading" id="jPo-hs-yrW"/>
+                <constraint firstItem="XsC-P3-mhO" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="15" id="o5J-mo-Iun"/>
+                <constraint firstItem="VnU-bX-Z0r" firstAttribute="leading" secondItem="XsC-P3-mhO" secondAttribute="trailing" constant="10" id="rhr-4C-GTa"/>
+                <constraint firstItem="VnU-bX-Z0r" firstAttribute="centerY" secondItem="XsC-P3-mhO" secondAttribute="centerY" id="vAx-CC-FSe"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <point key="canvasLocation" x="-73.5" y="-83.5"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="default_head" width="80" height="80"/>
+    </resources>
+</document>

@@ -1,0 +1,79 @@
+PODS:
+  - AFNetworking (3.0.4):
+    - AFNetworking/NSURLSession (= 3.0.4)
+    - AFNetworking/Reachability (= 3.0.4)
+    - AFNetworking/Security (= 3.0.4)
+    - AFNetworking/Serialization (= 3.0.4)
+    - AFNetworking/UIKit (= 3.0.4)
+  - AFNetworking/NSURLSession (3.0.4):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/Reachability (3.0.4)
+  - AFNetworking/Security (3.0.4)
+  - AFNetworking/Serialization (3.0.4)
+  - AFNetworking/UIKit (3.0.4):
+    - AFNetworking/NSURLSession
+  - CocoaLumberjack (2.2.0):
+    - CocoaLumberjack/Default (= 2.2.0)
+    - CocoaLumberjack/Extensions (= 2.2.0)
+  - CocoaLumberjack/Core (2.2.0)
+  - CocoaLumberjack/Default (2.2.0):
+    - CocoaLumberjack/Core
+  - CocoaLumberjack/Extensions (2.2.0):
+    - CocoaLumberjack/Default
+  - MJExtension (3.0.13)
+  - MJRefresh (3.1.12)
+  - NSObject-SafeExpectations (0.0.2)
+  - UIAlertView+Blocks (0.9)
+  - UITableView+FDTemplateLayoutCell (1.4)
+  - UMengUShare/Core (6.4.1):
+    - UMengUShare/Network
+  - UMengUShare/Network (6.4.1)
+  - UMengUShare/Social/ReducedQQ (6.4.1):
+    - UMengUShare/Core
+  - UMengUShare/Social/ReducedSina (6.4.1):
+    - UMengUShare/Core
+  - UMengUShare/Social/ReducedWeChat (6.4.1):
+    - UMengUShare/Core
+  - UMengUShare/UI (6.4.1):
+    - UMengUShare/Core
+  - WordPress-Editor-iOS-Extension (0.1.5):
+    - NSObject-SafeExpectations
+    - UIAlertView+Blocks
+    - WordPress-iOS-Shared
+    - WordPressCom-Analytics-iOS
+    - WYPopoverController
+  - WordPress-iOS-Shared (0.8.0):
+    - CocoaLumberjack (~> 2.2.0)
+  - WordPressCom-Analytics-iOS (0.1.23)
+  - WYPopoverController (0.3.9)
+
+DEPENDENCIES:
+  - AFNetworking (~> 3.0.4)
+  - MJExtension
+  - MJRefresh
+  - UITableView+FDTemplateLayoutCell
+  - UMengUShare/Social/ReducedQQ
+  - UMengUShare/Social/ReducedSina
+  - UMengUShare/Social/ReducedWeChat
+  - UMengUShare/UI
+  - WordPress-Editor-iOS-Extension
+
+SPEC CHECKSUMS:
+  AFNetworking: a0075feb321559dc78d9d85b55d11caa19eabb93
+  CocoaLumberjack: 17fe8581f84914d5d7e6360f7c70022b173c3ae0
+  MJExtension: 5932755f451458eefa24239358817f8d291240c7
+  MJRefresh: b96cdb21c4aa75a7b07654311ab2f315c497e806
+  NSObject-SafeExpectations: 7d7f48df90df4e11da7cfe86b64f45eff7a7f521
+  UIAlertView+Blocks: a46c99c5144f6c5dbc7d62fd2a0678daceec89a3
+  UITableView+FDTemplateLayoutCell: 234e1582bcc4e18461af91155123bb96538ed030
+  UMengUShare: 7756e2e46ceba04e3000fb2c9b1d3f61784ca2ff
+  WordPress-Editor-iOS-Extension: 7d9ab7af71ba2bdca4c0bd24c8fbe2c60c8fdf83
+  WordPress-iOS-Shared: 4d073fb8efa96f3c902d1e1ac2557bb720f416d7
+  WordPressCom-Analytics-iOS: a0ff71080216968f0986baa1240d17d39998e9f0
+  WYPopoverController: a9db25ac2841a686acdc0f3a99bdb21545db32f4
+
+PODFILE CHECKSUM: 27e5600421b3db716333f889ca7e8206011e1d72
+
+COCOAPODS: 1.2.0
