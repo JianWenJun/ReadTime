@@ -22,6 +22,8 @@ iOS移动客户端主要实现两方面的内容，一方面为用户提供一�
 <img src="./jpg/爬虫架构设计图.jpg" width = "600" height = "350" alt="爬虫架构设计图" />
 </div>
 <div align=center >爬虫架构设计图 </div>
+
 ### 实现效果图
+
 <div align=center>
 <img src="./jpg/界面图.jpg" width = "800" height = "450" alt="爬虫架构设计图" />
