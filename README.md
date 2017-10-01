@@ -5,19 +5,6 @@
 iOS移动客户端主要实现两方面的内容，一方面为用户提供一个可以利用空闲时间来阅读、评论、分享和收藏短篇心灵鸡汤类文章和欣赏精美图片的手机阅读应用平台。
 另一方面用户可以在应用平台上进行短篇文章创作，编写自己的文章上交后台审核。</br>
 服务端采用后端云LeanCloud进行数据存储，后端的数据采集通过Python编写的程序来爬取相关精美短篇文章的网站的信息。</br>
-<<<<<<< HEAD
-
-<div align=center>
-<img src="./jpg/项目架构图.jpg" width = "450" height = "250" alt="项目架构图" />
-</div>
-<div align=center >项目架构图 </div>
-<div align=center>
-<img src="./jpg/客户端架构设计图.jpg" width = "500" height = "170" alt="客户端架构设计图" />
-</div>
-<div align=center>
-<img src="./jpg/爬虫架构设计图.jpg" width = "450" height = "250" alt="爬虫架构设计图" />
-</div>
-=======
 ### 项目设计
 本项目中的移动客户端设备和Leancloud后端云及后端管理PC端之间的架构图如图4-1所示，所有移动客户端设备通过网络访问Leancloud后端云向外提供的API接口，达到相互交互。而后端管理PC端主要是通过网络爬虫爬取经过挑选的美文，美图网站的信息文章。再通过网络存放到Leancloud后端云提供的云存储上。</br>
 <div align=center>
@@ -36,5 +23,5 @@ iOS移动客户端主要实现两方面的内容，一方面为用户提供一�
 </div>
 <div align=center >爬虫架构设计图 </div>
 ### 实现效果图
-
->>>>>>> c965cd45f879d841a751848b413855d9f1d3f06d
+<div align=center>
+<img src="./jpg/界面图.jpg" width = "800" height = "450" alt="爬虫架构设计图" />
